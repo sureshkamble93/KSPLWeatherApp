@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:weather_app_kspl/models/weather.dart';
 // Weather Service - Handles API requests
 class WeatherService {
-  final String apiKey = 'YOUR_API_NINJA_KEY';
+  final String apiKey = 'i8PbNnG5oTyqomsYc7vXbA==OpCyhZSZGNfmpr5f';
   // Fetch weather using latitude and longitude
 
   Future<Weather> fetchWeatherByCoordinates(double latitude, double longitude) async {
