@@ -12,8 +12,6 @@ void main() async {
   await HiveDatabase.init();
   runApp(BlocProvider(
     create: (context) => WeatherBloc(WeatherRepository(WeatherService()), HiveDatabase()),
-
-    // create: (context) => WeatherBloc(WeatherService(), HiveDatabase()),
     child: MyApp(),
   ));
 }
